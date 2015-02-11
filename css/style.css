@@ -1,0 +1,308 @@
+/* NAVIGATION */
+
+.navbar-brand{
+	padding: 0px !important;
+}
+
+nav img{
+	height: 100%;
+}
+/*
+.scrolling {
+	background-color: #f8f8f8 !important;
+	border-color: #e7e7e7 !important;
+}
+
+.scrolling a {
+	color: #777 !important;
+}
+
+.navbar-default {
+	background-color: rgba(194, 164, 164, 0);
+    border-color: rgba(194, 164, 164, 0);
+}
+
+.navbar-default .navbar-nav li a {
+	color: #FFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+*/
+
+/* TOP BANNER */
+.banner {
+	height: 100%;
+	background-image: url(../image/head-bg.png);
+	background-position: center center;
+	background-size: cover;
+}
+
+.bannerText {
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 35%;
+	text-align: center;
+	padding: 30px 0 30px;
+	max-width: 960px;
+	color: #FFFFFF;
+}
+
+.bannerText h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.bannerText p {
+	font-size: 18px;
+	padding-bottom: 42px;
+}
+
+.bannerText a {
+	color: #fff;
+	background-color: #EF7674;
+	text-transform: uppercase;
+	padding: 20px 30px;
+}
+
+.bannerText a:hover{
+	text-decoration : none;
+	color: #E74C3C;
+}
+
+/* ABOUT */
+.aboutme {
+	background: #FFFFFF;
+	color: #897f8a;
+}
+
+.aboutme .row{
+	margin-right: 0px;
+}
+
+.aboutme  img {
+	height: 650px;
+}
+
+.aboutme .content {
+	padding-left: 48px;
+}
+.aboutme h2 {
+	text-align: left;
+	padding-top: 78px;
+	padding-bottom: 26px;
+}
+
+.aboutme h3 {
+	color: #5b4c5c;
+	font-size: 18px;
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 3px;
+}
+
+.aboutme h4 {
+	padding-bottom: 24px;
+}
+
+.aboutme p {
+	overflow: hidden;
+	position: relative;
+	padding-right: 50px;
+}
+
+/* SKILLS */
+.skills{
+	background-color: #ECF0F1;
+}
+
+.skills_organize{
+	color: #897f8a;
+	margin: 10em;
+	min-height: 100px;
+	overflow: hidden;
+}
+
+.skill_title {
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.skills .position{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 3em;
+	float: none;
+}
+
+.skills h2 {
+	color: #5b4c5c;
+	margin-bottom: 49px;
+}
+
+.skills h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 11px;
+	color: #5b4c5c;
+}
+
+.skills p {
+	color: #897f8a;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+}
+
+/* EDUCATION */ /* EXPERIENCE */
+.experience{
+	background-color: #ECF0F1;
+	padding: 7em;
+}
+
+.education{
+	background-color: #FFFFFF;
+	padding: 7em;
+}
+
+.education .row , .experience .row{
+	padding: 0px;
+}
+
+.e_title {
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.e_title p{
+	margin: .5em 0;
+	color: #897f8a;
+}
+
+.e_timeline{
+	list-style-type: none;
+}
+
+.education h4 , .experience h4{
+	color: #5b4c5c;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.education h5 , .experience h5 {
+	font-size: .85em;
+	color: #888;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.education p , .experience p {
+	margin: .5em 0;
+	font-style: italic;
+}
+
+.pad1{
+	padding-bottom: 0.5em;
+}
+
+.pad2{
+	padding-bottom: 3em;
+}
+
+.education ul , .experience ul {
+	list-style-type: none;
+}
+
+/* PORTFOLIO */
+.portfolio{
+  	padding: 4em;
+  	background-color: #2980B9;
+}
+
+.portfolio img{
+  	height:100%; 
+  	margin: auto;
+  	opacity: 0.8;
+}
+
+.portfolio img:hover{
+  	opacity: 1;
+}
+
+
+.portfolio .col-sm-4{
+	height:20em;
+	padding-bottom: 1em;	
+
+}
+
+.portfolio h2{
+	color: #FFF;
+	padding-bottom: 2em;
+}
+
+.portfolio img{
+	border: 6px solid rgba(206, 205, 255, 0.78);
+	cursor: pointer;
+}
+
+
+/* CONTACT */
+.contact{
+	background: url('../image/world.png') no-repeat no-repeat center;
+	background-color: #2C3E50;
+}
+.contact .info{
+	padding: 6em;
+}
+
+.contact h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.contact p {
+	color: #F7F7F7;
+	font-size: 15px;
+	padding-bottom: 14px;
+}
+
+.message {
+	color: #F7F7F7;
+	padding: 6em;
+}
+
+.contact input , .contact textarea{
+	margin-bottom: 2em;
+}
+
+.contact button{
+	color: #fff;
+	background-color: #EF7674;
+	text-transform: uppercase;
+	width: 3em;
+}
+
+.actions {
+margin-bottom: 0;
+}
+
+.footer{
+  background-color: #3498DB;
+}
+
+.footer_words{
+  
+  color: white;
+}
+
+.footer_div{
+  padding: 14;
+}
+
